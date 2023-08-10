@@ -1,0 +1,120 @@
+body {
+  margin: 40px;
+  background-color:rgb(242, 241, 241);
+  
+  
+}
+
+.nav{
+    text-align: right;
+    
+}
+ 
+ a:link {
+    color: rgb(142, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(151, 4, 129);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(188, 186, 186);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(0, 34, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .wrapper{
+    display: grid;
+    grid-template-rows: 5% 85% 10%;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 100%;
+    row-gap: 60px;
+  }
+
+  #iframe{
+   margin: auto;
+   width: 500px;
+ 
+ }
+  
+ img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width:350px;
+  height:350px;
+ }
+  
+  /*.box {
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+  }*/
+
+  #bio {
+    color: rgb(5, 5, 5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    line-height: 31px;
+  }
+
+  /*.header{
+    background-image: url('./computer.jpg');
+    background-repeat: no-repeat;
+    background-size:initial;
+    background-position: center;
+  }*/
+
+  .work{
+    
+  }
+  
+  #projects {
+    display: block;
+    text-align: left;
+    font-size: large;
+  
+  }
+
+.desk{
+  width: 1000px;
+  height: 500px;
+}
+
+#git, #linkedin{
+  width: 50px;
+  height: 50px;
+  display:block;
+  border-radius: 50px;
+  margin-left: 195px;
+  margin-top: -40px;
+}
+
+#contact li a{
+  color: darkblue;
+}
+
+.projectTitle{
+  font-weight: 100;
+  color: darkslateblue;
+}
+
+#projects{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 28px;
+}
