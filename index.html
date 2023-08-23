@@ -3,30 +3,31 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
-<body id="main">
-    <div class="wrapper">
-        <div class="box header">
-            
-            <nav class="nav">
-                <a href="#">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="#contact">Contact</a>
-            <nav>
-
-            <br/>
-            
-        </div>
-        
-        <div class="box content">
-            <div id="bio">
+<body id="main" >
+    <ul class="nav nav-pills gap-2 p-1 small bg-secondary rounded-5 shadow-sm " id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-secondary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"><a href="#" style="color: grey;">Home</a></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="projects.html">Projects</a></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="#contact">Contact</a></button>
+        </li>
+      </ul>     
+                
+        <div class="box content bg-light">
+           <br/> 
+           <div id="bio">
                 <img src="./profile_img-.png"> 
                 <br/>
                 <p style="text-decoration: underline;">Bio:</p>
-                My name is Elvis Dovi. I am a Full-Stack Web Developer based in North Carolina. I love writing code to solve problems and make people's lives easier.<br/>
+                <p>My name is Elvis Dovi. I am a Full-Stack Web Developer based in North Carolina. I love writing code to solve problems and make people's lives easier.<br/>
                 I am proficient with JavaScript, Node.js, Express.js, React.js, PostgreSQL, and I am continually working to improve my skills and stay up to date with the new technologies.<br/>
-                I am currently taking the MIT xPRO Full-Stack Web Development course and by the end of the program I hope to acquire new skills and start a new career in Web Development.
+                I am currently taking the MIT xPRO Full-Stack Web Development course and by the end of the program I hope to acquire new skills and start a new career in Web Development.</p>
                 <br/>
                 <ul id="contact">
                     <li>
