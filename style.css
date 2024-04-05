@@ -2,12 +2,16 @@ body {
   margin: 40px;
   background-color:rgb(242, 241, 241);
   
-  
 }
 
 nav{
     text-align: right;
     
+}
+
+.projectLink{
+  font-family: monospace;
+  font-size: large;
 }
  
  a:link {
@@ -16,17 +20,17 @@ nav{
     text-decoration: none;
   }
   .projectLink a:link{
-    color: rgb(208, 73, 73);
+    color: rgba(23, 18, 99, 0.886);
     text-decoration: none;
   
   }
 
   .projectLink a:visited{
-    color: rgb(255, 173, 173);
+    color: rgb(129, 136, 186);
     text-decoration: none;
   }
   .projectLink a:hover{
-    color:rgb(188, 186, 186);
+    color:rgb(226, 226, 226);
     text-decoration: none;
   }
   
@@ -83,7 +87,7 @@ nav{
 
   #bio {
     color: rgb(5, 5, 5);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: monospace;
     font-size:larger;
     line-height: 31px;
     padding: 20px;
@@ -95,10 +99,6 @@ nav{
     background-size:initial;
     background-position: center;
   }*/
-
-  .work{
-    
-  }
   
   #projects {
     display: block;
@@ -140,6 +140,21 @@ nav{
 }
 
 #projects{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: monospace;
   line-height: 28px;
+}
+
+#home-tab2, #profile-tab2, #contact-tab2{
+  color: rgb(192, 192, 192);
+  font-family: monospace;
+}
+
+#home-tab2:hover, #profile-tab2:hover, #contact-tab2:hover{
+  font-family: monospace;
+  color: rgb(221, 221, 222); 
+}
+
+#home-tab2-selected,  #profile-tab2-selected, #contact-tab2-selected{
+  color: rgb(16, 13, 63);
+  font-family: monospace;
 }
